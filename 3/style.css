@@ -5,26 +5,46 @@ html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
 }
 body{
     position:relative;
+
 }
 #red{
     background:red;
+    position: relative;
+    height:25%;
 }
 #green{
     background:green;
+    width:33.333%;
+    position:relative;
+    height: 50%;
+    float:left;
+    padding:25% 0% 0% 0%;
 }
 #blue{
     background:blue;
-}
-#parent{
-    border:5px solid black;
     position:relative;
+    float:left;
+    width:33.333%;
+    height: 50%;
+    padding:25% 0% 0% 0%;
+
 }
 #purple{
     background:purple;
+    clear:both;
+
+
 }
+
 #yellow{
     background: yellow;
+    position:relative;
+    float: left;
+    height: 50%;
+    width:33.333%;
+    padding:25% 0% 0% 0%;
 }
 .box{
     min-height:100px;
+   
 }
